@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <div className="homepage pb-10">
       <div className="container mx-auto px-4">
-        <div className="hero grid md:grid-cols-2 grid-cols-1 items-center gap-20 pt-32">
+        <div className="hero grid gap-20 md:grid-cols-2 grid-cols-1 items-center pt-32">
           <div className="box text-white animate__animated animate__fadeIn animate__delay-1s">
             <h1 className="lg:text-5xl/tight text-3xl font-bold text-white mb-7 animate__animated animate__fadeIn animate__delay-2s">
               Raihan Ramona Putra<span className="text-white lg:text-4xl text-2xl"> Frontend Developer</span>
@@ -21,7 +21,7 @@ const HomePage = () => {
             </a>
           </div>
           <div className="box animate__animated animate__fadeIn animate__delay-5s">
-            <img src={han} alt="hero image" className="md:w-full w-[400px] mx-auto rounded-full shadow-black md:m-0 opacity-0 animate__animated animate__fadeIn animate__delay-6s" />
+            <img src={han} alt="hero image" className=" w-[400px] md:w-[400px] mx-auto shadow-black md:m-0 opacity-0 animate__animated animate__fadeIn animate__delay-6s" />
           </div>
         </div>
 
