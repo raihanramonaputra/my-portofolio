@@ -16,7 +16,7 @@ const HomePage = () => {
               Raihan Ramona Putra<span className="text-white lg:text-4xl text-2xl"> Frontend Developer</span>
             </h1>
             <p className="text-base/8 mb-7 animate__animated animate__fadeIn animate__delay-3s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam maxime et non enim libero dolores vel eum nostrum minus. Facilis?</p>
-            <a href="#" className="bg-purple-500 hover:bg-purple-600 transition-all py-2 px-4 text-white shadow rounded-full animate__animated animate__fadeIn animate__delay-4s">
+            <a href="#" className="bg-indigo-500 hover:bg-indigo-600 transition-all py-2 px-4 text-white shadow rounded-full animate__animated animate__fadeIn animate__delay-4s">
               Tentang Kami <i className="ri-eye-line ms-1"></i>
             </a>
           </div>
@@ -26,7 +26,7 @@ const HomePage = () => {
         </div>
 
         {/* about */}
-        <div section id="about">
+        <div id="about">
           <div className="about grid md:grid-cols-2 grid-cols-1 items-center md:gap-10 md:pt-22 pt-32">
             <div className="box md:order-1 order-2 animate__animated animate__fadeIn animate__delay-2s">
               <img src={about} alt="aboutme" className="lg:w-[500px] w-[400px] md:m-0 mx-auto animate__animated animate__fadeIn animate__delay-3s" />
@@ -42,7 +42,7 @@ const HomePage = () => {
         {/* akhir about */}
 
         {/* layanan */}
-        <div section id="services">
+        <div id="services">
           <div className="services pt-32 mb-20">
             <h1 className="text-center font-bold text-white lg:text-5xl/tight text-3xl mb-4 animate__animated animate__fadeIn animate__delay-1s">Layanan</h1>
             <div className="service-box pt-12 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
@@ -67,31 +67,31 @@ const HomePage = () => {
         {/* akhir layanan */}
 
         {/* project */}
-        <div section id="project">
+        <div id="project">
           <div className="project pt-32">
             <h1 className="text-center lg:text-5xl/tight text-3xl font-bold text-white mb-4 animate__animated animate__fadeIn animate__delay-1s">Project</h1>
             <div className="project-box pt-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
-              <div className="box p-2 bg-white shadow animate__animated animate__fadeIn animate__delay-2s transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+              <div className="box p-2 bg-slate-800 shadow animate__animated animate__fadeIn animate__delay-2s transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                 <img src={project1} alt="Project" className="w-full h-[220px]" />
                 <h3 className="text-xl font-bold mt-6 mb-2 hover:underline transition duration-200">Project Name</h3>
                 <p className="text-base/loose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit.</p>
               </div>
-              <div className="box p-2 bg-white shadow animate__animated animate__fadeIn animate__delay-3s transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+              <div className="box p-2 bg-slate-800 shadow animate__animated animate__fadeIn animate__delay-3s transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                 <img src={project2} alt="Project" className="w-full h-[220px]" />
                 <h3 className="text-xl font-bold mt-6 mb-2 hover:underline transition duration-200">Project Name</h3>
                 <p className="text-base/loose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit.</p>
               </div>
-              <div className="box p-2 bg-white shadow animate__animated animate__fadeIn animate__delay-4s transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+              <div className="box p-2 bg-slate-800 shadow animate__animated animate__fadeIn animate__delay-4s transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                 <img src={project3} alt="Project" className="w-full h-[220px]" />
                 <h3 className="text-xl font-bold mt-6 mb-2 hover:underline transition duration-200">Project Name</h3>
                 <p className="text-base/loose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit.</p>
               </div>
-              <div className="box p-2 bg-white shadow animate__animated animate__fadeIn animate__delay-5s transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+              <div className="box p-2 bg-slate-800 shadow animate__animated animate__fadeIn animate__delay-5s transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                 <img src={project4} alt="Project" className="w-full h-[220px]" />
                 <h3 className="text-xl font-bold mt-6 mb-2 hover:underline transition duration-200">Project Name</h3>
                 <p className="text-base/loose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit.</p>
               </div>
-              <div className="box p-2 bg-white shadow animate__animated animate__fadeIn animate__delay-6s transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+              <div className="box p-2 bg-slate-800 shadow animate__animated animate__fadeIn animate__delay-6s transition-transform duration-300 hover:scale-105 hover:shadow-lg">
                 <img src={project5} alt="Project" className="w-full h-[220px]" />
                 <h3 className="text-xl font-bold mt-6 mb-2 hover:underline transition duration-200">Project Name</h3>
                 <p className="text-base/loose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit.</p>

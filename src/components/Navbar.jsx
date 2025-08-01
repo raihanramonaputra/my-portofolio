@@ -18,7 +18,7 @@ const Navbar = () => {
     });
   });
 
-  let scrollActive = scroll ? "py-6 bg-purple-900 shadow" : "py-4";
+  let scrollActive = scroll ? "py-6 bg-slate-800 shadow" : "py-4";
 
   return (
     <div className={`navbar fixed w-full z-50 transition-all ${scrollActive}`}>
@@ -31,28 +31,28 @@ const Navbar = () => {
             className={`flex lg:gap-12 md:static md:flex-row md:shadow-none md:bg-transparent md:w-auto md:h-full md:translate-y-0 md:text-white md:p-0 md:m-0 md:transition-none gap-8 fixed ${menuActive} top-1/2 -translate-y-1/2 flex-col px-8 py-6 rounded shadow-lg shadow-slate-300 bg-red-500 font-bold text-white transition-all`}
           >
             <li>
-              <a href="#home" className=" text-lg font-medium hover:opacity-100 hover:underline transition duration-200">
+              <a href="#home" className=" text-lg font-medium hover:text-indigo-400 hover:underline transition duration-200">
                 Home
               </a>
             </li>
             <li>
-              <a href="#about" className="text-lg font-medium hover:opacity-100 hover:underline transition duration-200">
+              <a href="#about" className="text-lg font-medium hover:text-indigo-400 hover:underline transition duration-200">
                 Tentang Kami
               </a>
             </li>
             <li>
-              <a href="#services" className="text-lg font-medium hover:opacity-100 hover:underline transition duration-200">
+              <a href="#services" className="text-lg font-medium hover:text-indigo-400 hover:underline transition duration-200">
                 Layanan
               </a>
             </li>
             <li>
-              <a href="#project" className="text-lg font-medium hover:opacity-100 hover:underline transition duration-200">
+              <a href="#project" className="text-lg font-medium hover:text-indigo-400 hover:underline transition duration-200">
                 Project
               </a>
             </li>
           </ul>
           <div className="social flex item-center gap-2">
-            <a href="#social" className="bg-purple-500 px-5 py-2 rounded-full text-white font-bold hover:bg-purple-600 transition-all">
+            <a href="#social" className="bg-indigo-500 hover:bg-indigo-600 px-5 py-2 rounded-full text-white font-bold transition-all">
               Social Media
             </a>
             <i className="ri-menu-fold-fill text-3xl md:hidden block" onClick={tombol}></i>
